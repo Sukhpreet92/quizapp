@@ -6,6 +6,7 @@ header {
   position: relative;
   right: 0rem;
   width: 100%;
+  text-align: center;
 }
 .hovereffect:hover {
   color: rgb(43, 250, 188);
@@ -20,11 +21,16 @@ section {
 ul {
   text-align: left;
 }
-
+.bookmark {
+  width: 40px;
+  top: -20px;
+  right: -250px;
+  position: relative;
+}
 #footer {
   display: flex;
   background-color: #000000;
-  font-size: 60px;
+  font-size: 0px;
   height: 48px;
   position: fixed;
   bottom: 0px;
@@ -34,13 +40,7 @@ ul {
   padding-bottom: 10%;
   justify-content: space-around;
 }
-.card__bookmark {
-  position: relative;
-  left: 200px;
-  top: -30px;
-
-  border: 2px solid #9a9a9a;
-  font-size: 2em;
-  border-radius: 50%;
-  box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+.navbar {
+  width: 50px;
+  height: 50px;
 }
