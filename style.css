@@ -1,8 +1,8 @@
 header {
   background-color: #000000;
   color: white;
-  height: 3rem;
-  font-size: 40px;
+  height: 4rem;
+  font-size: 50px;
   position: relative;
   right: 0rem;
   width: 100%;
@@ -15,5 +15,22 @@ header {
 section {
   border: 5px solid rgb(0, 0, 0);
   margin-top: 2%;
-  align-items: center;
+  text-align: center;
+}
+ul {
+  text-align: left;
+  
+}
+footer {
+
+  position: fixed;
+  bottom: 0px;
+  background-color: black;
+  font-size: 50px;
+  right: 0rem;
+  width: 100%;
+  letter-spacing: 88px;
+  
+  
+p
 }
