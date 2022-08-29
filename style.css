@@ -19,18 +19,36 @@ section {
 }
 ul {
   text-align: left;
-  
 }
-footer {
 
+/* bookmark on side*/
+
+.container {
+  display: flex;
+  justify-content: flex-end;
+  height: 100px;
+}
+input {
+  -webkit-appearance: none;
+  height: 20px;
+  border-top: 20px solid blue;
+  border-right: 20px solid blue;
+  border-bottom: 20px solid transparent;
+  border-left: 20px solid blue;
+}
+
+/* bookmark on side*/
+
+#footer {
+  display: flex;
+  background-color: #000000;
+  font-size: 60px;
+  height: 48px;
   position: fixed;
   bottom: 0px;
-  background-color: black;
-  font-size: 50px;
-  right: 0rem;
+  left: 0px;
   width: 100%;
-  letter-spacing: 88px;
-  
-  
-p
+  padding: 5%;
+  padding-bottom: 10%;
+  justify-content: space-around;
 }
