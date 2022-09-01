@@ -1,46 +1,12 @@
-header {
-  background-color: #000000;
-  color: white;
-  height: 4rem;
-  font-size: 50px;
-  position: relative;
-  right: 0rem;
-  width: 100%;
-  text-align: center;
+@import url(components/card.css);
+@import url(components/header.css);
+@import url(components/navbar.css);
+:root {
+  --primary-color: rgba(248, 150, 2, 0.961);
 }
-.hovereffect:hover {
-  color: rgb(43, 250, 188);
-  border: #ff7a59 solid 1px;
-  background: rgb(0, 0, 0);
+* {
+  box-sizing: border-box;
 }
-section {
-  border: 5px solid rgb(0, 0, 0);
-  margin-top: 6%;
-  text-align: center;
-}
-ul {
-  text-align: left;
-}
-.bookmark {
-  width: 40px;
-  top: -20px;
-  right: -250px;
-  position: relative;
-}
-#footer {
-  display: flex;
-  background-color: #000000;
-  font-size: 0px;
-  height: 48px;
-  position: fixed;
-  bottom: 0px;
-  left: 0px;
-  width: 100%;
-  padding: 5%;
-  padding-bottom: 10%;
-  justify-content: space-around;
-}
-.navbar {
-  width: 50px;
-  height: 50px;
+main {
+  padding: 100px 0;
 }
